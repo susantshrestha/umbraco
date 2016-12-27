@@ -1,0 +1,118 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>000cd975-b702-4c34-90ce-a31e70d79868</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: umbMaster</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ca90c950-0aff-4e72-b976-a30b1ac57dad</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: ca90c950-0aff-4e72-b976-a30b1ac57dad</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>umbNewsItem</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: umbNewsItem</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>e76117b0-1441-461c-ba5a-f2f9b84be772</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>News Item</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Icon>.sprTreeDocPic</Icon>
+    <Thumbnail>docWithImage.png</Thumbnail>
+    <Alias>umbNewsItem</Alias>
+    <Description />
+    <IsContainer>false</IsContainer>
+    <AllowAtRoot>false</AllowAtRoot>
+    <UniqueId>e76117b0-1441-461c-ba5a-f2f9b84be772</UniqueId>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>23bc7168-0bd1-4e55-8415-cccf79bc1b00</UniqueId>
+            <Alias>bodyText</Alias>
+            <DataTypeDefinitionId>ca90c950-0aff-4e72-b976-a30b1ac57dad</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Content</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>cc186517-7823-4fa7-8bff-999609bbc813</UniqueId>
+            <Alias>image</Alias>
+            <DataTypeDefinitionId>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Image</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>cc39c4a7-9812-48de-9e3a-df4a9e6a8e08</UniqueId>
+            <Alias>publishDate</Alias>
+            <DataTypeDefinitionId>e4d66c0f-b935-4200-81f0-025f7256b89a</DataTypeDefinitionId>
+            <Description>You can overrule the date shown on the site by changing it here. If you don't set a date explicitly here then the news item's create date will be shown.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Publish date</Name>
+            <SortOrder>0</SortOrder>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>31cc8cef-04fc-4002-8b2c-ef9f79ac9294</UniqueId>
+            <Alias>subheader</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Subheader</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>umbNewsItem</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>7c3e902f-795a-47fc-a217-feeb82f9092b</UniqueId>
+        </Tab>
+    </Tabs>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,000cd975-b702-4c34-90ce-a31e70d79868,e76117b0-1441-461c-ba5a-f2f9b84be772</PathGuids>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates>
+        <string>umbNewsItem</string>
+    </AllowedTemplates>
+    <DefaultTemplate>umbNewsItem</DefaultTemplate>
+    <MasterDocumentType>umbMaster</MasterDocumentType>
+    <MasterDocumentTypes>
+        <string>umbMaster</string>
+    </MasterDocumentTypes>
+</DocumentType>

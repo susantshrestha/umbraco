@@ -1,0 +1,51 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>000cd975-b702-4c34-90ce-a31e70d79868</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: umbMaster</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>umbNewsOverview</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: umbNewsOverview</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>4387c17a-1ebc-44c1-86d0-4b254c1549bb</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>News Overview</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Icon>package.png</Icon>
+    <Thumbnail>folder_media.png</Thumbnail>
+    <Alias>umbNewsOverview</Alias>
+    <Description />
+    <IsContainer>false</IsContainer>
+    <AllowAtRoot>false</AllowAtRoot>
+    <UniqueId>4387c17a-1ebc-44c1-86d0-4b254c1549bb</UniqueId>
+    <Properties />
+    <Tabs />
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,000cd975-b702-4c34-90ce-a31e70d79868,4387c17a-1ebc-44c1-86d0-4b254c1549bb</PathGuids>
+    <AllowedChildDocumentTypes>
+        <string>umbNewsItem</string>
+    </AllowedChildDocumentTypes>
+    <AllowedTemplates>
+        <string>umbNewsOverview</string>
+    </AllowedTemplates>
+    <DefaultTemplate>umbNewsOverview</DefaultTemplate>
+    <MasterDocumentType>umbMaster</MasterDocumentType>
+    <MasterDocumentTypes>
+        <string>umbMaster</string>
+    </MasterDocumentTypes>
+</DocumentType>

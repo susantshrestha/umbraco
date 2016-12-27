@@ -1,0 +1,21 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>umbLayout</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Layout</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/umbLayout.cshtml</ExtractToPath>
+            <Name>~/views/umbLayout.cshtml</Name>
+            <PackageFromPath>~/views/umbLayout.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/umbLayout.cshtml</TemporaryStoragePath>
+        </Resource>
+    </Resources>
+    <Alias>umbLayout</Alias>
+    <MasterPagePath>~/masterpages/umbLayout.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1046</Id>
+</Template>

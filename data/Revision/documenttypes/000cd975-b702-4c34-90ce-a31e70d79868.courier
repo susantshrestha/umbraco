@@ -1,0 +1,53 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>000cd975-b702-4c34-90ce-a31e70d79868</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Master</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Icon>folder.gif</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Alias>umbMaster</Alias>
+    <Description />
+    <IsContainer>false</IsContainer>
+    <AllowAtRoot>false</AllowAtRoot>
+    <UniqueId>000cd975-b702-4c34-90ce-a31e70d79868</UniqueId>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>7518cd6b-b169-4cf3-b2e5-f0053bf0aba5</UniqueId>
+            <Alias>title</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>The page title overrules the name this page was given. So if the page name is "About us" the title could be "About Our Company Name".</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Page title</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>a73c64ea-98e0-4ba4-89c9-4107a62b55e2</UniqueId>
+            <Alias>umbracoNaviHide</Alias>
+            <DataTypeDefinitionId>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</DataTypeDefinitionId>
+            <Description>If set to "Yes", this page will be hidden from the navigation menu at the top.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Hide in navigation?</Name>
+            <SortOrder>0</SortOrder>
+            <Validation />
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>umbMaster</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>ee3a9bdf-51e0-4cf1-9f8f-bd874adac48a</UniqueId>
+        </Tab>
+    </Tabs>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,000cd975-b702-4c34-90ce-a31e70d79868</PathGuids>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates />
+    <MasterDocumentTypes />
+</DocumentType>

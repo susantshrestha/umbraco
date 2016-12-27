@@ -1,0 +1,282 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>000cd975-b702-4c34-90ce-a31e70d79868</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: umbMaster</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ca90c950-0aff-4e72-b976-a30b1ac57dad</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: ca90c950-0aff-4e72-b976-a30b1ac57dad</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>umbHomePage</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: umbHomePage</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>ecd575d7-746a-47f5-b70f-195022938c98</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Home</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Icon>.sprTreeSettingDomain</Icon>
+    <Thumbnail>docWithImage.png</Thumbnail>
+    <Alias>umbHomePage</Alias>
+    <Description />
+    <IsContainer>false</IsContainer>
+    <AllowAtRoot>false</AllowAtRoot>
+    <UniqueId>ecd575d7-746a-47f5-b70f-195022938c98</UniqueId>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>8ec57228-63d7-4bac-9f3f-399699744704</UniqueId>
+            <Alias>aboutText</Alias>
+            <DataTypeDefinitionId>ca90c950-0aff-4e72-b976-a30b1ac57dad</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>AboutText</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>About</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>54c5fe8a-ca54-4775-aabd-366fa5806713</UniqueId>
+            <Alias>aboutTitle</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>About Title</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>About</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>13a4b16d-6e22-4576-899b-6fd358ad9953</UniqueId>
+            <Alias>bannerBackgroundImage</Alias>
+            <DataTypeDefinitionId>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Banner background image</Name>
+            <SortOrder>5</SortOrder>
+            <TabCaption>Banner</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>f001940c-c1e1-4813-989e-212091c26967</UniqueId>
+            <Alias>bannerHeader</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Banner Header</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Banner</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>f5cbc4ef-15ef-4560-b0fe-03f8eef62e74</UniqueId>
+            <Alias>bannerLink</Alias>
+            <DataTypeDefinitionId>a6857c73-d6e9-480c-b6e6-f15f6ad11125</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Banner link</Name>
+            <SortOrder>4</SortOrder>
+            <TabCaption>Banner</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>db9b3979-ff95-4f9d-a658-67055084df76</UniqueId>
+            <Alias>bannerLinkText</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Banner link text</Name>
+            <SortOrder>3</SortOrder>
+            <TabCaption>Banner</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>c5b4234c-4de9-44e1-a8ba-216ae4b66e21</UniqueId>
+            <Alias>bannerSubheader</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Banner Subheader</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Banner</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>e2ead064-d7c5-4791-a15a-d78abc644075</UniqueId>
+            <Alias>byline</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Byline</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>b5f7c903-38da-4520-a1b4-c851bd784e0c</UniqueId>
+            <Alias>copyright</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Copyright</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>941435c0-797c-4f52-9d17-2a21d0bbefce</UniqueId>
+            <Alias>dribbbleLink</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Dribbble link</Name>
+            <SortOrder>3</SortOrder>
+            <TabCaption>Social</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>f5a18abe-0089-471e-a322-35bf04b63446</UniqueId>
+            <Alias>facebookLink</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Facebook link</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Social</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>89e3dd0a-8303-4dc6-a8ca-54db9956757b</UniqueId>
+            <Alias>googleLink</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Google+ link</Name>
+            <SortOrder>5</SortOrder>
+            <TabCaption>Social</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>96517a85-5f60-4215-b515-bf9f93b53c7a</UniqueId>
+            <Alias>hideBanner</Alias>
+            <DataTypeDefinitionId>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Hide banner?</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Banner</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>fe41d664-582d-4abb-974e-f35e968a9e32</UniqueId>
+            <Alias>linkedInLink</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>LinkedIn link</Name>
+            <SortOrder>4</SortOrder>
+            <TabCaption>Social</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>cefb2434-f8a4-461a-b0c4-dbb603f1ebd6</UniqueId>
+            <Alias>rssLink</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Rss link</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Social</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>62ae2203-10da-4d72-b98b-b4ec284e8591</UniqueId>
+            <Alias>siteName</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Site Name</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>7633b991-f17a-4153-9a7a-2a384305ab8e</UniqueId>
+            <Alias>twitterLink</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Twitter link</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Social</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>umbHomePage</ContentTypeAlias>
+            <SortOrder>2</SortOrder>
+            <Text>About</Text>
+            <UniqueId>29593f1a-eadf-4de0-a50b-2e8de4f6db5d</UniqueId>
+        </Tab>
+        <Tab>
+            <ContentTypeAlias>umbHomePage</ContentTypeAlias>
+            <SortOrder>1</SortOrder>
+            <Text>Banner</Text>
+            <UniqueId>8a305d8e-5b57-408b-a6bb-9bcaa26a6c00</UniqueId>
+        </Tab>
+        <Tab>
+            <ContentTypeAlias>umbHomePage</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>7aa320a5-52d3-4f16-8fba-593e6894de9e</UniqueId>
+        </Tab>
+        <Tab>
+            <ContentTypeAlias>umbHomePage</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Social</Text>
+            <UniqueId>707b9d56-e217-48bf-8b98-cd1f42913071</UniqueId>
+        </Tab>
+    </Tabs>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,000cd975-b702-4c34-90ce-a31e70d79868,ecd575d7-746a-47f5-b70f-195022938c98</PathGuids>
+    <AllowedChildDocumentTypes>
+        <string>umbTextPage</string>
+    </AllowedChildDocumentTypes>
+    <AllowedTemplates>
+        <string>umbHomePage</string>
+    </AllowedTemplates>
+    <DefaultTemplate>umbHomePage</DefaultTemplate>
+    <MasterDocumentType>umbMaster</MasterDocumentType>
+    <MasterDocumentTypes>
+        <string>umbMaster</string>
+    </MasterDocumentTypes>
+</DocumentType>

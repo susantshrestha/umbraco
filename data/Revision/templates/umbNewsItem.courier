@@ -1,0 +1,32 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>umbLayout</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Master template: umbLayout</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>umbNewsItem</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>News Item</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/umbNewsItem.cshtml</ExtractToPath>
+            <Name>~/views/umbNewsItem.cshtml</Name>
+            <PackageFromPath>~/views/umbNewsItem.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/umbNewsItem.cshtml</TemporaryStoragePath>
+        </Resource>
+    </Resources>
+    <Alias>umbNewsItem</Alias>
+    <MasterPagePath>~/masterpages/umbNewsItem.master</MasterPagePath>
+    <ParentTemplateAlias>umbLayout</ParentTemplateAlias>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1048</Id>
+</Template>

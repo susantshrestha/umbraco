@@ -1,0 +1,110 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>000cd975-b702-4c34-90ce-a31e70d79868</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: umbMaster</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ca90c950-0aff-4e72-b976-a30b1ac57dad</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: ca90c950-0aff-4e72-b976-a30b1ac57dad</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>umbTextPage</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: umbTextPage</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>75cefcb0-3c7e-44b8-8f2c-1dc16e4604b8</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Text Page</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Icon>.sprTreeDoc</Icon>
+    <Thumbnail>doc.png</Thumbnail>
+    <Alias>umbTextPage</Alias>
+    <Description />
+    <IsContainer>false</IsContainer>
+    <AllowAtRoot>false</AllowAtRoot>
+    <UniqueId>75cefcb0-3c7e-44b8-8f2c-1dc16e4604b8</UniqueId>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>51184507-2dc0-421e-b45c-48093ae8f2a0</UniqueId>
+            <Alias>bodyText</Alias>
+            <DataTypeDefinitionId>ca90c950-0aff-4e72-b976-a30b1ac57dad</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Content</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>f4f1358e-3c01-4c05-abd6-8ed33fc99db4</UniqueId>
+            <Alias>featuredPage</Alias>
+            <DataTypeDefinitionId>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</DataTypeDefinitionId>
+            <Description>Is this a page that should be featured on the home page?</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Featured Page?</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>da890b46-5118-4819-acae-23fc6c451c7d</UniqueId>
+            <Alias>image</Alias>
+            <DataTypeDefinitionId>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</DataTypeDefinitionId>
+            <Description />
+            <Mandatory>false</Mandatory>
+            <Name>Image</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Content</TabCaption>
+            <Validation />
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>umbTextPage</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>b71057c3-2e1e-499d-88b1-91ba9afb506f</UniqueId>
+        </Tab>
+    </Tabs>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,000cd975-b702-4c34-90ce-a31e70d79868,75cefcb0-3c7e-44b8-8f2c-1dc16e4604b8</PathGuids>
+    <AllowedChildDocumentTypes>
+        <string>umbTextPage</string>
+    </AllowedChildDocumentTypes>
+    <AllowedTemplates>
+        <string>umbTextPage</string>
+    </AllowedTemplates>
+    <DefaultTemplate>umbTextPage</DefaultTemplate>
+    <MasterDocumentType>umbMaster</MasterDocumentType>
+    <MasterDocumentTypes>
+        <string>umbMaster</string>
+    </MasterDocumentTypes>
+</DocumentType>
